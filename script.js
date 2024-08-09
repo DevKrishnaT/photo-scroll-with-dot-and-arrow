@@ -64,8 +64,9 @@ next.addEventListener('click',()=>{
 });
 
 prev.addEventListener('click',()=>{
-    changeButtonColor();
-   ( slidnumber > 1) ? previmage() : previmageElse()
+    
+   ( slidnumber > 1) ? previmage() : previmageElse();
+   changeButtonColor();
 })
 
 const backForOne = () => {
